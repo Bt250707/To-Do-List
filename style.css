@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("bg-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.list-area {
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto 20px;
+    padding: 40px 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.list-area h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    font-size: large;
+    background: transparent;    
+}
+
+button {
+    padding: 20px 30px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+ul{
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: outside;
+    /* padding-left: 20px; */
+    margin-left: 10px;
+}
+
+ul li {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+ul::marker {
+    font-size: 20px;
+    color: #333;
+}
+
+ul li span {
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+ul button {
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ul button:hover {
+    background-color: #555;
+}
+
+ul select {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+}
